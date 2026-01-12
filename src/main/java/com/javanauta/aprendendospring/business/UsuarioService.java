@@ -38,6 +38,7 @@ public class UsuarioService {
         }
     }
 
+
     public boolean verificaEmailExistente(String email){
         return usuarioRepository.existsByEmail(email);
     }
